@@ -1,0 +1,29 @@
+{
+  "name": "@theworker02/knitcue",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Knit identifiers and cue tokens for idempotent workflows.",
+  "bin": {
+    "knitcue": "src/cli.js"
+  },
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "node --test"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/theworker02/knitcue.git"
+  },
+  "homepage": "https://theworker02.github.io/knitcue/",
+  "keywords": [
+    "knit",
+    "cue",
+    "id",
+    "cli",
+    "toolkit"
+  ]
+}
